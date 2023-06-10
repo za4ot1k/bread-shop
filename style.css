@@ -1,5 +1,6 @@
 body {
     background-color: #202023;
+    font-family: 'Inter';
 }
 
 ul,ol {
@@ -16,38 +17,35 @@ a {
 }
 
 .nav-link {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 200;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 1.21;
     color: #FFFFFF;
 }
 
 .hero-title {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 200;
     font-size: 70px;
-    line-height: 85px;
+    line-height: 1.2;
     color: #FFFFFF;
 }
 
+.hero-card-img {
+    width: 193px;
+    height: 193px;
+}
+
 .hero-text {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 300;
     font-size: 21px;
-    line-height: 25px;
+    line-height: 1.19;
     color: #FFFFFF;
 }
 
 .hero-button {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 300;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 1.21;
     color: #FFFFFF;
     width: 207px;
     height: 57px;
@@ -57,29 +55,23 @@ a {
 }
 
 .hero-cards-title {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 200;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 1.21;
     color: #FFFFFF;
 }
 
 .hero-clas-text {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     color: #FFFFFF;
 }
 
 .hero-card-button {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 900;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     color: #FFFFFF;
     width: 79px;
     height: 34px;
@@ -88,20 +80,21 @@ a {
 }
 
 .menu-cards-text {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 800;
     font-size: 25.92px;
-    line-height: 31px;
+    line-height: 1.19;
     color: #FFFFFF;
 }
 
+.menu-cards-img {
+    width: 294px;
+    height: 184.39px;
+} 
+
 .menu-cards-button {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 800;
     font-size: 25.92px;
-    line-height: 31px;
+    line-height: 1.19;
     color: #FFFFFF;
     width: 160px;
     height: 41px;
@@ -110,41 +103,45 @@ a {
     border: #B47B48;
 }
 
-.qual-title {
+.rezept-title {
     font-family: 'Italiana';
     font-style: normal;
     font-weight: 400;
     font-size: 64px;
-    line-height: 75px;
+    line-height: 1.17;
     color: #FFFFFF;
 }
 
-.qual-card-text {
-    font-family: 'Inter';
-    font-style: normal;
+.rezept-img {
+    width: 356px;
+    height: 223px;
+}
+
+.rezept-card-text {
     font-weight: 500;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 1.12;
     color: #FFFFFF;
 }
 
 .about-title {
-    font-family: 'Italiana';
-    font-style: normal;
     font-weight: 400;
     font-size: 48px;
-    line-height: 57px;
+    line-height: 1.19;
     color: #D9D9D9;
 
 }
 
 .about-text {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 1.21;
     color: #FFFFFF;
+}
+
+.about-img {
+    width: 218px;
+    height: 183px;
 }
 
 .Where {
@@ -152,90 +149,96 @@ a {
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
-    line-height: 57px;
+    line-height: 1.19;
     color: #FFFFFF;
 
 }
 
 .how {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 40px;
-    line-height: 48px;
+    line-height: 1.2;
     color: #FFFFFF;
 
 }
 
 .footer-contact-link {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 300;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 1.21;
     color: #FFFFFF;
 
 }
 
 .when {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 40px;
-    line-height: 48px;
+    line-height: 1.21;
     color: #FFFFFF;
 
 }
 
 .footer-time {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 200;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 1.21;
     text-align: center;
     color: #FFFFFF;
 
 }
 
 .footer-title {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 200;
     font-size: 40px;
-    line-height: 48px;
+    line-height: 1.2;
     color: #FFFFFF;
 
 }
 
 .footer-text {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 300;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     color: #FFFFFF;
 
 }
 
+.footer-adress-img {
+    width: 535px;
+    height: 487px;
+}
+
 .footer-block-text {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 300;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 1.21;
     text-align: center;
     color: #FFFFFF;
 
 }
 
 .footer-discription {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 100;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     color: #FFFFFF;
 
 }
+
+.footer-block {
+    display: flex;
+}
+
+.b2block-footer {
+    display: flex;
+}
+
+.footer-2block1 p,a {
+    display: block;
+}
+
+.footer-block-list {
+    display: flex;
+}
+
 
